@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Директ-ЭнергоСервис</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="page-header__logo logo">
+        <span class="logo__name">Директ-ЭнергоСервис</span>
+        <span class="logo__text">комплексная помощь по вопросу технологического присоединения к<br> электрическим сетям физических и юридических лиц.</span>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list carousel-indicators">
+          <li class="site-list__item active" data-slide="0">
+            <span>Главная</span>
+          </li>
+          <li class="site-list__item" data-slide="1">
+            <span>Услуги</span>
+          </li>
+          <li class="site-list__item" data-slide="2">
+            <span>Обратная связь</span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="carousel-inner">
+      <section data-slide="0" class="main-page carousel-item prev-slide">
+        <div class="main-page__wrapper">
+          <h1 class="main-page__headline">
+            Подключение электричества для физических и юридических лиц
+            в Саратове и Саратовской областия
+          </h1>
+          <p class="main-page__description">
+            Наши специалисты помогут в комплексном решении вопросов по части электроснабжения
+            и технологического присоединения, в кратчайшие сроки и с индивидуальным подходом.
+          </p>
+          <div class="main-page__benefits">
+            <ul class="main-page__benefits-list benefits-list">
+              <li class="benefits-list__item engineer">Отлаженная работа с инстанциями</li>
+              <li class="benefits-list__item personal">Квалифицированные работники в штате</li>
+              <li class="benefits-list__item energy">Выполняем работы любой сложности с гарантией</li>
+              <li class="benefits-list__item vallet">Доступные цены на все услуги</li>
+              <li class="benefits-list__item calendar">Работаем более 5 тел в сфере электроснабжения</li>
+              <li class="benefits-list__item sale">Скидки для крупных клиентов</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section data-slide="1" class="services-page carousel-item ">
+        <p class="services-page__description">
+          Вам понадобилось подключение к электросетям? Доверьте решение всех технических вопросов профессионалам. <br>
+          Мы «присоединяем» объекты любой сложности к электросетям максимально быстро и с минимальными затратами.
+        </p>
+        <div class="services-page__lists">
+          <ul class="services-page__list  left-service-list">
+            <li class="service-list__item">Консультационные услуги</li>
+            <li class="service-list__item">Подключение новых объектов</li>
+            <li class="service-list__item">Комплексное оформление документации</li>
+            <li class="service-list__item">Увеличение мощности</li>
+            <li class="service-list__item">Абонентское обслуживание</li>
+            <li class="service-list__item">Изменение категории надежности объекта</li>
+          </ul>
+          <ul class="services-page__list  right-service-list">
+            <li class="service-list__item">Досудебное урегулирование споров</li>
+            <li class="service-list__item">Электромонтажные работы</li>
+            <li class="service-list__item">Переоформление технической документации</li>
+            <li class="service-list__item">Подключение электроснабжения "Под ключ"</li>
+            <li class="service-list__item">Выполнение мероприятий по техническим условиям</li>
+            <li class="service-list__item">Внедрение мероприятий по электросбережению</li>
+          </ul>
+        </div>
+      </section>
+      <section data-slide="2" class="feedback-page carousel-item">
+        <div class="feedback-page__form-block">
+          <p class="feedback-page__form-description">
+            Заполните форму и получите бесплатный выезд специалиста
+            для предварительной оценки вашего объекта.
+          </p>
+          <form class="feedback-page__form form" method="post" action="?success=true" accept="true">
+            <input class="input-name" type="text" name="name" placeholder="Имя*" required maxlength="20">
+            <input class="input-tel" type="tel" name="tel" placeholder="Телефон*" required maxlength="20">
+            <input class="input-mail" type="email" name="email" placeholder="E-mail"  maxlength="50">
+            <textarea class="input-comment" name="comment" placeholder="Комментарий" cols="30" rows="10"></textarea>
+            <input class="form__button" type="submit"> </input>
+          </form>
+        </div>
+        <footer class="page-footer">
+          <div class="page-footer__contacts tel-address">
+            <span class="page-footer__service-name">Директ-ЭнергоСервис</span>
+            <span>+7-927-129-23-39</span>
+            <span>г. Саратов, бла бла бла...</span>
+          </div>
+          <div class="page-footer__contacts email-social">
+            <span>
+              E-mail: mistacudi@gmail.com
+            </span>
+            <div>
+
+            </div>
+          </div>
+        </footer>
+      </section>
+      <div class="pop-up__submit hidden">
+        <div class="pop-up__window">
+          <p class="pop-up__window-text">
+            Заявка отправлена. <br>
+            С вами свяжется наш специалист.
+          </p>
+        </div>
+      </div>
+    </main>
+    <script>
+      const indicators = document.querySelectorAll('.site-list__item');
+      const slides = document.querySelectorAll('.carousel-item');
+      const popUp = document.querySelector('.pop-up__submit');
+      const submitForm = document.querySelector('.feedback-page__form');
+
+      let prevSlide = document.querySelector('.carousel-item:first-child');
+
+
+      if (window.location.search === '?success=true') {
+        togglePopUp();
+      }
+
+      function toggleActive () {
+        indicators.forEach(indicator => indicator.classList.remove('active'));
+        this.classList.add('active');
+
+        slides.forEach(slide => slide.classList.remove('prev-slide'));
+
+        let currentIndicator = this;
+        prevSlide.classList.add('prev-slide');
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides.forEach(slide => {if (currentIndicator.dataset.slide === slide.dataset.slide) {slide.classList.add('active')}});
+
+        prevSlide = document.querySelector('section.active');
+      }
+
+      function changeActive (e) {
+        let currentSlide = this;
+        if(e.propertyName.includes('transform')) {
+          indicators.forEach(indicator => indicator.classList.remove('active'));
+          indicators.forEach(indicator => {if (currentSlide.dataset.slide === indicator.dataset.slide) {indicator.classList.add('active')}});
+        }
+      }
+
+      function togglePopUp () {
+        /*e.preventDefault();*/
+        popUp.classList.toggle('hidden');
+      }
+
+      indicators.forEach(indicator => indicator.addEventListener('click', toggleActive));
+      slides.forEach(slide => slide.addEventListener('transitionend', changeActive));
+      /*submitForm.addEventListener('submit', togglePopUp);*/
+      popUp.addEventListener('click', togglePopUp);
+
+      document.onkeydown = function(e) {
+        if (e.keyCode == 27 || e.keyCode == 32) { // escape or enter
+          popUp.classList.add('hidden');
+        }
+      }
+
+    </script>
+
+  </body>
+</html>
